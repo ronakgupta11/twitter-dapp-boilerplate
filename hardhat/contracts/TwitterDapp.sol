@@ -5,6 +5,8 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 
+//  twiiter Dapp contract deployed to :  0x601b5e38CbD1329EEFa82E54DD728398420F869A
+
 contract TwitterDapp is ERC721("TwitterDapp","TDAPP"){
     uint tokenId;
 
